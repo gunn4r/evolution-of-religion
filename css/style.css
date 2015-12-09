@@ -1,0 +1,37 @@
+/*
+    Author: Gunnar Gabrielson
+    Website: http://gunnargabrielson.com
+    Email: gunnargabrielson@gmail.com
+    Twitter: @gunn4r
+*/
+
+header{
+    background: #333333;
+    color: #444444;
+    font-size: 20px;
+    line-height:100px;
+    height:100px;
+    text-align:center;
+}
+
+header .siteTitle {
+    margin:0;
+}
+
+.main{
+    height:calc(100vh - 100px);
+    width: 100%;
+    position:relative;
+}
+
+.main svg{
+    background: rgb(196, 170, 242);
+    height: 100%;
+    width: 100%;;
+}
+
+.main svg circle{
+    fill: rgb(33, 88, 112);
+    stroke: rgb(99, 171, 118);
+    stroke-width: 5;
+}
