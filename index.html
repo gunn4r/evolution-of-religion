@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="evoReligion">
 <head>
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta charset="UTF-8">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
 
   <title>Evolution of Religion</title>
 </head>
 <body>
 
-  <header>
-    <h1 class="siteTitle">The Evolutionary Tree of Religion</h1>
-  </header>
+  <h1 class="siteTitle"><span class="menuToggle"><i class="fa fa-bars"></i></span> The Evolutionary Tree of Religion</h1>
+  <div class="drawer">
+
+  </div>
   <div class="main">
 
   </div>
@@ -21,7 +24,8 @@
 
 
   <!--SCRIPTS-->
-  <script src="js/d3.js" charset="utf-8"></script>
-  <script src="js/scripts.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+  <script src="js/d3.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
