@@ -1,0 +1,20 @@
+{
+    "name" : "Reform Judaism",
+    "date" : 1809,
+    "location" : "Middle East",
+    "type" : ,
+    "wikiTitle" : "Reform_Judaism",
+    "parent" : { "name" : "Judaism"},
+    "adaptedFrom" : { "name" : "Catholicism" },
+    "influencedBy" : {}
+},
+{
+    "name" : "Mormonism",
+    "date" : 1830,
+    "location" : "North America",
+    "type" : ,
+    "wikiTitle" : "Mormonism",
+    "parent" : {},
+    "adaptedFrom" : { "name" : "Reform Judaism" },
+    "influencedBy" : {}
+}
